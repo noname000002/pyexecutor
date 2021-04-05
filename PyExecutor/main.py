@@ -19,9 +19,9 @@ def selected():
             
           
 
-for entry in os.scandir(r'D:\(User)\PyExecutor\Programs'):
+for entry in os.scandir(r'ENTER THE PATH FOR PROGRAMS FOLDER'):
     if entry.path.endswith('.py'):
-        value = entry.path.replace(r'D:\(User)\PyExecutor\Programs', '')
+        value = entry.path.replace(r'ENTER THE PATH FOR PROGRAMS FOLDER', '')
         list.insert(0,value)
         filepaths.insert(0,entry.path)
         
