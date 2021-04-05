@@ -1,2 +1,4 @@
 # pyexecutor
-execute python programs without shell
+Execute python programs without the use of shell
+# Required Modules
+Requires Tkinter
